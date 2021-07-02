@@ -15,7 +15,7 @@ namespace projeto1.Pages
     {
         private IWebDriver driver;
         private WebDriverWait wait;
-        
+        public string pathUpload="C:\\Users\\mathe\\Desktop\\fot.jpg";
         public Home(IWebDriver driver)
         {
             this.driver = driver;
@@ -100,7 +100,7 @@ namespace projeto1.Pages
             
             insertValues(By.XPath("/html/body/section/div/div/div[2]/form/div[12]/div/input")).SendKeys("Quin102030");
             insertValues(By.XPath("/html/body/section/div/div/div[2]/form/div[13]/div/input")).SendKeys("Quin102030");
-            uploadImage(By.XPath("/html/body/section/div/div/div[3]/div[2]/input"), "C:\\Users\\mathe\\Desktop\\fot.jpg");
+            uploadImage(By.XPath("/html/body/section/div/div/div[3]/div[2]/input"), pathUpload);
             screenshot();
            
             
