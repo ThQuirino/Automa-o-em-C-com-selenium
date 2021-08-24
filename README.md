@@ -1,4 +1,4 @@
-# Automa-o-em-C-com-selenium
+# Automação-em-C#-com-selenium
 Automação feita em uma página de cadastro utilizando como linguagem de programação o C#. Além disso, é implementado em um sistema de teste BDD.
 ### Requisitos:
 - Compilador da linguagem <a href='https://www.microsoft.com/pt-br/p/csharp/9n4w6bhc0hml#activetab=pivot:overviewtab'>C#</a>
